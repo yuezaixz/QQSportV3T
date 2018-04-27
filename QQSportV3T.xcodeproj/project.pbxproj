@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6EB6FF420916A39006D0E08 /* MethodTraceConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6EB6FF320916A39006D0E08 /* MethodTraceConfig.plist */; };
+		A6EB6FFE20916A3A006D0E08 /* libQQSportV3TDylib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = A6EB6FFD20916A3A006D0E08 /* libQQSportV3TDylib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A6EB700320916A3A006D0E08 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EB700220916A3A006D0E08 /* JavaScriptCore.framework */; };
+		A6EB700520916A3A006D0E08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EB700420916A3A006D0E08 /* Foundation.framework */; };
+		A6EB700720916A3A006D0E08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EB700620916A3A006D0E08 /* UIKit.framework */; };
+		A6EB700C20916A3A006D0E08 /* QQSportV3TDylib.mm in Sources */ = {isa = PBXBuildFile; fileRef = A6EB700B20916A3A006D0E08 /* QQSportV3TDylib.mm */; };
+		A6EB700F20916A3A006D0E08 /* LLDBTools.h in Headers */ = {isa = PBXBuildFile; fileRef = A6EB700E20916A3A006D0E08 /* LLDBTools.h */; };
+		A6EB701120916A3A006D0E08 /* LLDBTools.mm in Sources */ = {isa = PBXBuildFile; fileRef = A6EB701020916A3A006D0E08 /* LLDBTools.mm */; };
+		A6EB701420916A3A006D0E08 /* ANYMethodLog.h in Headers */ = {isa = PBXBuildFile; fileRef = A6EB701320916A3A006D0E08 /* ANYMethodLog.h */; };
+		A6EB701620916A3A006D0E08 /* ANYMethodLog.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EB701520916A3A006D0E08 /* ANYMethodLog.m */; };
+		A6EB701820916A3A006D0E08 /* MethodTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = A6EB701720916A3A006D0E08 /* MethodTrace.h */; };
+		A6EB701A20916A3A006D0E08 /* MethodTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EB701920916A3A006D0E08 /* MethodTrace.m */; };
+		A6EB701F20916A3A006D0E08 /* AntiAntiDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EB701E20916A3A006D0E08 /* AntiAntiDebug.m */; };
+		A6EB702220916A3A006D0E08 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = A6EB702120916A3A006D0E08 /* fishhook.c */; };
+		A6EB702420916A3A006D0E08 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = A6EB702320916A3A006D0E08 /* fishhook.h */; };
+		A6EB703220916A95006D0E08 /* QQSportsV3.app in Resources */ = {isa = PBXBuildFile; fileRef = A6EB703120916A95006D0E08 /* QQSportsV3.app */; };
+		A6EB703720916B25006D0E08 /* CaptainHook.h in Headers */ = {isa = PBXBuildFile; fileRef = A6EB703420916B24006D0E08 /* CaptainHook.h */; };
+		A6EB703820916B25006D0E08 /* TXVideoPod.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EB703520916B24006D0E08 /* TXVideoPod.m */; };
+		A6EB703920916B25006D0E08 /* TXVideoPod.h in Headers */ = {isa = PBXBuildFile; fileRef = A6EB703620916B25006D0E08 /* TXVideoPod.h */; };
+		A6EB703C209172BC006D0E08 /* QQSportHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = A6EB703A209172BC006D0E08 /* QQSportHeader.h */; };
+		A6EB703D209172BC006D0E08 /* QQSportHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EB703B209172BC006D0E08 /* QQSportHeader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6EB6FFF20916A3A006D0E08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6EB6FE020916A39006D0E08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6EB6FFC20916A3A006D0E08;
+			remoteInfo = QQSportV3TDylib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A6EB6FE820916A39006D0E08 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A6EB6FFE20916A3A006D0E08 /* libQQSportV3TDylib.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A6EB6FEB20916A39006D0E08 /* QQSportV3T.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQSportV3T.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6EB6FEE20916A39006D0E08 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		A6EB6FEF20916A39006D0E08 /* Target.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Target.plist; sourceTree = "<group>"; };
+		A6EB6FF120916A39006D0E08 /* quick-resign.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "quick-resign.sh"; path = "Scripts/quick-resign.sh"; sourceTree = "<group>"; };
+		A6EB6FF320916A39006D0E08 /* MethodTraceConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = MethodTraceConfig.plist; path = Config/MethodTraceConfig.plist; sourceTree = "<group>"; };
+		A6EB6FF720916A39006D0E08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6EB6FFD20916A3A006D0E08 /* libQQSportV3TDylib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libQQSportV3TDylib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6EB700220916A3A006D0E08 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		A6EB700420916A3A006D0E08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6EB700620916A3A006D0E08 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6EB700A20916A3A006D0E08 /* QQSportV3TDylib.xm */ = {isa = PBXFileReference; lastKnownFileType = text; name = QQSportV3TDylib.xm; path = Logos/QQSportV3TDylib.xm; sourceTree = "<group>"; };
+		A6EB700B20916A3A006D0E08 /* QQSportV3TDylib.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = QQSportV3TDylib.mm; path = Logos/QQSportV3TDylib.mm; sourceTree = "<group>"; };
+		A6EB700E20916A3A006D0E08 /* LLDBTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LLDBTools.h; path = Tools/LLDBTools.h; sourceTree = "<group>"; };
+		A6EB701020916A3A006D0E08 /* LLDBTools.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = LLDBTools.mm; path = Tools/LLDBTools.mm; sourceTree = "<group>"; };
+		A6EB701320916A3A006D0E08 /* ANYMethodLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ANYMethodLog.h; path = MethodTrace/ANYMethodLog.h; sourceTree = "<group>"; };
+		A6EB701520916A3A006D0E08 /* ANYMethodLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ANYMethodLog.m; path = MethodTrace/ANYMethodLog.m; sourceTree = "<group>"; };
+		A6EB701720916A3A006D0E08 /* MethodTrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MethodTrace.h; path = MethodTrace/MethodTrace.h; sourceTree = "<group>"; };
+		A6EB701920916A3A006D0E08 /* MethodTrace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MethodTrace.m; path = MethodTrace/MethodTrace.m; sourceTree = "<group>"; };
+		A6EB701C20916A3A006D0E08 /* QQSportV3TDylib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QQSportV3TDylib-Prefix.pch"; sourceTree = "<group>"; };
+		A6EB701E20916A3A006D0E08 /* AntiAntiDebug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AntiAntiDebug.m; path = AntiAntiDebug/AntiAntiDebug.m; sourceTree = "<group>"; };
+		A6EB702120916A3A006D0E08 /* fishhook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fishhook.c; path = fishhook/fishhook.c; sourceTree = "<group>"; };
+		A6EB702320916A3A006D0E08 /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = fishhook/fishhook.h; sourceTree = "<group>"; };
+		A6EB703120916A95006D0E08 /* QQSportsV3.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = QQSportsV3.app; path = TargetApp/QQSportsV3.app; sourceTree = "<group>"; };
+		A6EB703420916B24006D0E08 /* CaptainHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptainHook.h; sourceTree = "<group>"; };
+		A6EB703520916B24006D0E08 /* TXVideoPod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXVideoPod.m; sourceTree = "<group>"; };
+		A6EB703620916B25006D0E08 /* TXVideoPod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXVideoPod.h; sourceTree = "<group>"; };
+		A6EB703A209172BC006D0E08 /* QQSportHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQSportHeader.h; sourceTree = "<group>"; };
+		A6EB703B209172BC006D0E08 /* QQSportHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQSportHeader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6EB6FE520916A39006D0E08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6EB6FFA20916A3A006D0E08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EB700320916A3A006D0E08 /* JavaScriptCore.framework in Frameworks */,
+				A6EB700720916A3A006D0E08 /* UIKit.framework in Frameworks */,
+				A6EB700520916A3A006D0E08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6EB6FDF20916A39006D0E08 = {
+			isa = PBXGroup;
+			children = (
+				A6EB6FED20916A39006D0E08 /* QQSportV3T */,
+				A6EB700820916A3A006D0E08 /* QQSportV3TDylib */,
+				A6EB700120916A3A006D0E08 /* Frameworks */,
+				A6EB6FEC20916A39006D0E08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6EB6FEC20916A39006D0E08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6EB6FEB20916A39006D0E08 /* QQSportV3T.app */,
+				A6EB6FFD20916A3A006D0E08 /* libQQSportV3TDylib.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6EB6FED20916A39006D0E08 /* QQSportV3T */ = {
+			isa = PBXGroup;
+			children = (
+				A6EB6FEE20916A39006D0E08 /* icon.png */,
+				A6EB6FEF20916A39006D0E08 /* Target.plist */,
+				A6EB6FF720916A39006D0E08 /* Info.plist */,
+				A6EB6FF020916A39006D0E08 /* Scripts */,
+				A6EB6FF220916A39006D0E08 /* Config */,
+				A6EB6FF520916A39006D0E08 /* TargetApp */,
+			);
+			path = QQSportV3T;
+			sourceTree = "<group>";
+		};
+		A6EB6FF020916A39006D0E08 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				A6EB6FF120916A39006D0E08 /* quick-resign.sh */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		A6EB6FF220916A39006D0E08 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				A6EB6FF320916A39006D0E08 /* MethodTraceConfig.plist */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		A6EB6FF520916A39006D0E08 /* TargetApp */ = {
+			isa = PBXGroup;
+			children = (
+				A6EB703120916A95006D0E08 /* QQSportsV3.app */,
+			);
+			name = TargetApp;
+			sourceTree = "<group>";
+		};
+		A6EB700120916A3A006D0E08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6EB700220916A3A006D0E08 /* JavaScriptCore.framework */,
+				A6EB700420916A3A006D0E08 /* Foundation.framework */,
+				A6EB700620916A3A006D0E08 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6EB700820916A3A006D0E08 /* QQSportV3TDylib */ = {
+			isa = PBXGroup;
+			children = (
+				A6EB703320916B24006D0E08 /* CaptainHook */,
+				A6EB703620916B25006D0E08 /* TXVideoPod.h */,
+				A6EB703520916B24006D0E08 /* TXVideoPod.m */,
+				A6EB700920916A3A006D0E08 /* Logos */,
+				A6EB700D20916A3A006D0E08 /* Tools */,
+				A6EB701220916A3A006D0E08 /* MethodTrace */,
+				A6EB701D20916A3A006D0E08 /* AntiAntiDebug */,
+				A6EB702020916A3A006D0E08 /* fishhook */,
+				A6EB701B20916A3A006D0E08 /* Supporting Files */,
+				A6EB703A209172BC006D0E08 /* QQSportHeader.h */,
+				A6EB703B209172BC006D0E08 /* QQSportHeader.m */,
+			);
+			path = QQSportV3TDylib;
+			sourceTree = "<group>";
+		};
+		A6EB700920916A3A006D0E08 /* Logos */ = {
+			isa = PBXGroup;
+			children = (
+				A6EB700A20916A3A006D0E08 /* QQSportV3TDylib.xm */,
+				A6EB700B20916A3A006D0E08 /* QQSportV3TDylib.mm */,
+			);
+			name = Logos;
+			sourceTree = "<group>";
+		};
+		A6EB700D20916A3A006D0E08 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				A6EB700E20916A3A006D0E08 /* LLDBTools.h */,
+				A6EB701020916A3A006D0E08 /* LLDBTools.mm */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		A6EB701220916A3A006D0E08 /* MethodTrace */ = {
+			isa = PBXGroup;
+			children = (
+				A6EB701320916A3A006D0E08 /* ANYMethodLog.h */,
+				A6EB701520916A3A006D0E08 /* ANYMethodLog.m */,
+				A6EB701720916A3A006D0E08 /* MethodTrace.h */,
+				A6EB701920916A3A006D0E08 /* MethodTrace.m */,
+			);
+			name = MethodTrace;
+			sourceTree = "<group>";
+		};
+		A6EB701B20916A3A006D0E08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6EB701C20916A3A006D0E08 /* QQSportV3TDylib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6EB701D20916A3A006D0E08 /* AntiAntiDebug */ = {
+			isa = PBXGroup;
+			children = (
+				A6EB701E20916A3A006D0E08 /* AntiAntiDebug.m */,
+			);
+			name = AntiAntiDebug;
+			sourceTree = "<group>";
+		};
+		A6EB702020916A3A006D0E08 /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				A6EB702120916A3A006D0E08 /* fishhook.c */,
+				A6EB702320916A3A006D0E08 /* fishhook.h */,
+			);
+			name = fishhook;
+			sourceTree = "<group>";
+		};
+		A6EB703320916B24006D0E08 /* CaptainHook */ = {
+			isa = PBXGroup;
+			children = (
+				A6EB703420916B24006D0E08 /* CaptainHook.h */,
+			);
+			path = CaptainHook;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A6EB6FFB20916A3A006D0E08 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EB700F20916A3A006D0E08 /* LLDBTools.h in Headers */,
+				A6EB701820916A3A006D0E08 /* MethodTrace.h in Headers */,
+				A6EB703920916B25006D0E08 /* TXVideoPod.h in Headers */,
+				A6EB701420916A3A006D0E08 /* ANYMethodLog.h in Headers */,
+				A6EB703C209172BC006D0E08 /* QQSportHeader.h in Headers */,
+				A6EB703720916B25006D0E08 /* CaptainHook.h in Headers */,
+				A6EB702420916A3A006D0E08 /* fishhook.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A6EB6FEA20916A39006D0E08 /* QQSportV3T */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6EB702E20916A3A006D0E08 /* Build configuration list for PBXNativeTarget "QQSportV3T" */;
+			buildPhases = (
+				A6EB6FE420916A39006D0E08 /* Sources */,
+				A6EB6FE520916A39006D0E08 /* Frameworks */,
+				A6EB6FE620916A39006D0E08 /* ShellScript */,
+				A6EB6FE720916A39006D0E08 /* Resources */,
+				A6EB6FE820916A39006D0E08 /* CopyFiles */,
+				A6EB6FE920916A39006D0E08 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6EB700020916A3A006D0E08 /* PBXTargetDependency */,
+			);
+			name = QQSportV3T;
+			productName = QQSportV3T;
+			productReference = A6EB6FEB20916A39006D0E08 /* QQSportV3T.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6EB6FFC20916A3A006D0E08 /* QQSportV3TDylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6EB702B20916A3A006D0E08 /* Build configuration list for PBXNativeTarget "QQSportV3TDylib" */;
+			buildPhases = (
+				A6EB6FF820916A3A006D0E08 /* ShellScript */,
+				A6EB6FF920916A3A006D0E08 /* Sources */,
+				A6EB6FFA20916A3A006D0E08 /* Frameworks */,
+				A6EB6FFB20916A3A006D0E08 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QQSportV3TDylib;
+			productName = QQSportV3TDylib;
+			productReference = A6EB6FFD20916A3A006D0E08 /* libQQSportV3TDylib.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6EB6FE020916A39006D0E08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "吴迪玮";
+				TargetAttributes = {
+					A6EB6FEA20916A39006D0E08 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					A6EB6FFC20916A3A006D0E08 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = A6EB6FE320916A39006D0E08 /* Build configuration list for PBXProject "QQSportV3T" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6EB6FDF20916A39006D0E08;
+			productRefGroup = A6EB6FEC20916A39006D0E08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6EB6FEA20916A39006D0E08 /* QQSportV3T */,
+				A6EB6FFC20916A3A006D0E08 /* QQSportV3TDylib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6EB6FE720916A39006D0E08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EB6FF420916A39006D0E08 /* MethodTraceConfig.plist in Resources */,
+				A6EB703220916A95006D0E08 /* QQSportsV3.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A6EB6FE620916A39006D0E08 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = /opt/MonkeyDev/Tools/pack.sh;
+		};
+		A6EB6FE920916A39006D0E08 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/Tools/pack.sh codesign";
+		};
+		A6EB6FF820916A3A006D0E08 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6EB6FE420916A39006D0E08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6EB6FF920916A3A006D0E08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EB701A20916A3A006D0E08 /* MethodTrace.m in Sources */,
+				A6EB701F20916A3A006D0E08 /* AntiAntiDebug.m in Sources */,
+				A6EB700C20916A3A006D0E08 /* QQSportV3TDylib.mm in Sources */,
+				A6EB701620916A3A006D0E08 /* ANYMethodLog.m in Sources */,
+				A6EB703820916B25006D0E08 /* TXVideoPod.m in Sources */,
+				A6EB703D209172BC006D0E08 /* QQSportHeader.m in Sources */,
+				A6EB702220916A3A006D0E08 /* fishhook.c in Sources */,
+				A6EB701120916A3A006D0E08 /* LLDBTools.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6EB700020916A3A006D0E08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6EB6FFC20916A3A006D0E08 /* QQSportV3TDylib */;
+			targetProxy = A6EB6FFF20916A3A006D0E08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A6EB702920916A3A006D0E08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A6EB702A20916A3A006D0E08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6EB702C20916A3A006D0E08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L6U7BB57HF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QQSportV3TDylib/QQSportV3TDylib-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libQQSportV3TDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"QQSportV3TDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-weak_library",
+					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+					"-framework",
+					Cycript,
+					"-framework",
+					RevealServer,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		A6EB702D20916A3A006D0E08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = L6U7BB57HF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QQSportV3TDylib/QQSportV3TDylib-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libQQSportV3TDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"QQSportV3TDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-weak_library",
+					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A6EB702F20916A3A006D0E08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L6U7BB57HF;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = QQSportV3T/Info.plist;
+				MONKEYDEV_ADD_SUBSTRATE = YES;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_TARGET_APP = Optional;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.sportskbs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6EB703020916A3A006D0E08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L6U7BB57HF;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = QQSportV3T/Info.plist;
+				MONKEYDEV_ADD_SUBSTRATE = YES;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_TARGET_APP = Optional;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.sportskbs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6EB6FE320916A39006D0E08 /* Build configuration list for PBXProject "QQSportV3T" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EB702920916A3A006D0E08 /* Debug */,
+				A6EB702A20916A3A006D0E08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6EB702B20916A3A006D0E08 /* Build configuration list for PBXNativeTarget "QQSportV3TDylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EB702C20916A3A006D0E08 /* Debug */,
+				A6EB702D20916A3A006D0E08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6EB702E20916A3A006D0E08 /* Build configuration list for PBXNativeTarget "QQSportV3T" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EB702F20916A3A006D0E08 /* Debug */,
+				A6EB703020916A3A006D0E08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6EB6FE020916A39006D0E08 /* Project object */;
+}

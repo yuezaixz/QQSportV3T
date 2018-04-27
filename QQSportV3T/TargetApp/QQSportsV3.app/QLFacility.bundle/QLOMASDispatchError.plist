@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>15001</key>
+        <string>OMAS_UNINNERPACK_ERROR</string>
+        <key>15002</key>
+        <string>OMAS_PUSH_LINK_ERROR</string>
+        <key>15003</key>
+        <string>OMAS_NO_CMD_ROUTE</string>
+        <key>15004</key>
+        <string>OMAS_ENCODE_INNER_ERROR</string>
+        <key>15005</key>
+        <string>OMAS_INNER_TIMEOUT</string>
+        <key>15006</key>
+        <string>OMAS_AUTH_FAIL</string>
+        <key>15007</key>
+        <string>OMAS_APP_TIMEOUT</string>
+        <key>15008</key>
+        <string>OMAS_APP_ERR_ROUTE</string>
+        <key>15009</key>
+        <string>OMAS_PUSH_INNER_ERR</string>
+        <key>15010</key>
+        <string>OMAS_DECODE_INNER_ERROR</string>
+        <key>15011</key>
+        <string>OMAS_DECODE_ACC_HEADER_ERROR</string>
+        <key>15012</key>
+        <string>OMAS_DECODE_QMF_HEADER_ERROR</string>
+        <key>15013</key>
+        <string>OMAS_DECODE_QMF_CMD_ERROR</string>
+        <key>15014</key>
+        <string>OMAS_CODE_DIS_AUTH_NOAPPCONF_ERROR</string>
+        <key>15015</key>
+        <string>OMAS_NO_CMD_ROUTE_ERROR</string>
+        <key>15016</key>
+        <string>OMAS_BIG_INPACK_ERROR</string>
+        <key>15017</key>
+        <string>OMAS_DECRY_ERROR</string>
+        <key>15018</key>
+        <string>OMAS_UNCOMPRESS_ERROR</string>
+        <key>15019</key>
+        <string>OMAS_OUTBUF_ERROR</string>
+        <key>15020</key>
+        <string>OMAS_ENCODE_QMF_ERROR</string>
+        <key>15021</key>
+        <string>OMAS_ENCODE_ACC_ERROR</string>
+        <key>15022</key>
+        <string>OMAS_OUTBUF_EXCEPTION</string>
+        <key>15023</key>
+        <string>OMAS_APPID_ERROR</string>
+        <key>15024</key>
+        <string>OMAS_CMD_STATUS_ERROR</string>
+        
+    </dict>
+</plist>
